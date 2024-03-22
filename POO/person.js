@@ -36,9 +36,7 @@ class Person {
     }
 
     printHobbies() {
-        console.log(`Hobbies de ${this.nombre}`);
         for (let hobby of this.hobbies) {
-            console.log(hobby);
         }
     }
 }
